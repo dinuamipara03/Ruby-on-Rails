@@ -1,0 +1,55 @@
+Four types of web APIs
+    APIs are broadly accepted and used in web applications. There are four different types of APIs commonly used in web services:
+
+    public
+    partner
+    private
+    composite
+
+
+Public APIs
+    A public API is open and available for use by any outside developer or business. An enterprise that cultivates a business strategy that involves sharing its applications and data with other businesses will develop and offer a public API. These are also called open APIs or external APIs.
+
+    Public APIs typically involve moderate authentication and authorization. An enterprise also might seek to monetize the API by imposing a per-call cost to utilize the public API.
+
+
+Partner APIs
+    A partner API, only available to specifically selected and authorized outside developers or API consumers, is a means to facilitate business-to-business activities. For example, if a business wants to selectively share its customer data with outside CRM firms, a partner API can connect the internal customer data system with those external parties -- no other API use is permitted.
+
+    Partners have clear rights and licenses to access such APIs. For this reason, partner APIs generally incorporate stronger authentication, authorization and security mechanisms. Enterprises also typically do not monetize such APIs directly; partners are paid for their services rather than through API use.
+
+Internal APIs
+    An internal or private API is intended only for use within the enterprise to connect systems and data within the business. For example, an internal API might connect an organization's payroll and HR systems.
+
+    Internal APIs traditionally present weak security and authentication -- or none at all -- because the APIs are intended for internal use, and such security levels are assumed to be in place through other policies. This is changing, however, as greater threat awareness and regulatory compliance demands increasingly influence an organization's API strategy.
+
+Composite APIs
+    Composite APIs generally combine two or more APIs to craft a sequence of related or interdependent operations. Composite APIs can be beneficial to address complex or tightly related API behaviors and can sometimes improve speed and performance over individual APIs.
+
+
+
+
+
+Types of APIs
+
+    REST
+        REST APIs are designed to make server-side data readily available by representing it in simple formats such as JSON and XML. The acronym stands for REpresentational State Transfer, and it was released in 2000 after being introduced in an academic thesis by Roy Fielding.
+
+    SOAP
+        SOAP APIs are formatted as XML files and they are extremely common web communication protocols. The acronym stands for Simple Object Access Protocol, and it was developed in the late 1990s. Despite its age, SOAP still remains one of the more popular API types used by developers.
+
+    WebSocket
+        Finally, we must briefly touch on WebSockets in relation to gRPC as discussed above. WebSockets is a communications protocol that provides dynamic communication over a single TCP connection.
+
+        Pros
+        WebSockets acts as a thin transport layer that sits on top of your TCP/IP technology stack. With the API, you can send messages to a server and receive event-driven responses without needing to poll the server for a reply.
+
+    GraphQL
+        GraphQL was developed in response to REST APIs, with the idea that you could execute precise syntax that retrieves only what is needed, lightening the payload and simplifying the process significantly.
+
+        GraphQL is an internal Facebook protocol that was first released in 2015, quickly becoming the go-to API type for JSON. You start by creating a schema that describes all the possible queries and the specific types that they return. This can be challenging, but once completed, the API can accept specific requests and return a result that matches exactly what the user is looking for.
+
+        There remains a heated debate in the technology industry as to whether companies should build a GraphQL API alongside an existing REST API or whether it should be a complete replacement. If you’re ever looking to stir up some controversy among developers, this is a good way to do it.
+
+    gRPC
+        In gRPC, RPC stands for Remote Procedure Call and refers to something that can execute a function housed elsewhere but in a different context. The ‘g’ appended at the beginning narrows things down to the most advanced version developed by Google back in 2015. A user on one side will select a remote procedure to execute, serialize the necessary parameters and then append any additional information into the message. This will then be sent to the server, which interacts with the other application, decoding the message and executing the operation. A result then comes back to the initial user.
