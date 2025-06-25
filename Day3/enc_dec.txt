@@ -1,0 +1,10 @@
+Encryption is the process of converting information into a coded format, known as ciphertext, to protect it from unauthorized access. Only authorized parties with the correct decryption key can convert the ciphertext back into readable plain text. This helps ensure data security when information is stored or transmitted. 
+
+Decryption is the process of converting encrypted data back into its original, readable format. It's the reverse of encryption, which scrambles data to protect it from unauthorized access. Essentially, decryption allows authorized users to access and understand information that has been previously encoded. 
+
+What is Symmetric Encryption?
+When the plain text is encrypted and decrypted using the same key, it is known as symmetric encryption. It is also known as "shared-key" or "private-key" encryption. It ensures confidentiality by ensuring only authorized parties with the key can access the original data.
+The key is a piece of a shared secret between the two parties involved hence it is 'shared-key' and is kept secret, hence the name 'private-key' is justified.
+
+What is an Asymmetric Encryption?
+In asymmetric encryption, the sender uses the recipient's public key to encrypt the data. The recipient then uses their private key to decrypt the data. This approach allows for secure communication between two parties without the need for both parties to have the same secret key. Asymmetric encryption has several advantages over symmetric encryption, which uses the same key for both encryption and decryption. One of the main advantages is that it eliminates the need to exchange secret keys, which can be a challenging process, especially when communicating with multiple parties.
