@@ -1,0 +1,25 @@
+What is hashing?
+    Hashing is the process of transforming any given key or a string of characters into another value. This is usually represented by a shorter, fixed-length value or key that represents and makes it easier to find or employ the original string.
+
+
+How does hashing work?
+    Hashing involves three components:
+
+        Input. The data entered into the algorithm is called input. This data can have any length and format. For instance, an input could be a music file or a paper. In hashing, every piece of input data is used to produce a single output.
+        
+        Hash function. The central part of the hashing process is the hash function. This function takes the input data and applies a series of mathematical operations to it, resulting in a fixed-length string of characters. The hash function ensures that even a small change in the input data produces a significantly different hash value.
+        Hash output. Unlike the input, the hashing process's output or hash value has a set length. It's challenging to determine the length of the original input because outputs have a set length, which contributes to an overall boost in security. A hash value is a string of characters and numbers that a hacker might not be able to read, keeping a person's information private. As each hash value is distinct, hash values are also frequently referred to as fingerprints
+
+
+
+Collision:
+    In Hashing, hash functions were used to generate hash values. The hash value is used to create an index for the keys in the hash table. The hash function may return the same hash value for two or more keys. When two or more keys have the same hash value, a collision happens. To handle this collision, we use Collision Resolution Techniques.
+
+    Collision Resolution Techniques
+    There are mainly two methods to handle collision:
+
+    1) Separate Chaining
+    2) Open Addressing
+           i)   Linear Probing: Checks consecutive slots until an empty one is found. 
+           ii)  Quadratic Probing: Checks slots at increasing quadratic distances. 
+           iii) Double Hashing: Uses a second hash function to determine the probing sequence.
