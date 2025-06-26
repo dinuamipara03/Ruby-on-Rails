@@ -1,0 +1,14 @@
+A cipher is a method or algorithm used in cryptography for encrypting and decrypting data. It transforms readable plaintext into an unreadable ciphertext, and vice versa, using a key. Ciphers are essential for protecting sensitive information by making it difficult for unauthorized individuals to understand the message. 
+
+
+
+
+caesar
+playfair
+hill
+column
+rail fence
+steam
+block
+vigenere
+one time pad
