@@ -1,0 +1,18 @@
+<%= stylesheet_link_tag "application.css" %>
+<div class="add-book">
+<%= form_with model: book do |form| %>
+  <div class="title">
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="description">
+  <%= form.label :description, required: true %><br>
+  <%= form.text_area :description %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+</div>

@@ -1,0 +1,72 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+#books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+#books > div {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  min-width: 200px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s;
+}
+
+#books > div:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+#books a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.add-book{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(231, 164, 184);
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    grid: 3;
+}
+
+.description {
+        font-size: 24px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: transparent;
+}
+input[type="submit"] {
+    background-color: #080a08;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
